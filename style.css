@@ -1,0 +1,142 @@
+body{
+    height: 100vh;
+    background:linear-gradient(0deg, #ca1616, #1919c3, #eaeaea);
+}
+
+#page-header{
+    position: absolute;
+    top:30px;
+    text-align: right;
+    right: 50pt;
+}
+
+.head{
+    margin:0px;
+    font-size: 38pt;
+    font-family: cursive;
+}
+
+input[type="text"]{
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.chart{
+    border: 5px groove #000000;
+    position: absolute;
+    left:10px;
+    top:200px;
+    z-index: 100;
+}
+
+.chart:active{
+    left: 40%;
+    top: 30%;
+    position: absolute;
+    transform: scale(2);
+    }
+
+
+#panelTitle{
+    font-size: 45pt;
+}
+
+
+#actionPanel{
+    z-index: 70;
+    background-color: #E6E6FA;
+    border: 5px groove #000000;
+    padding: 10px 40px 40px 40px;
+
+    position: absolute;
+    left: 340px;
+    top:200px;
+    font-size: 25pt;
+    width: 450px;
+}
+
+.selectionLabel{
+    margin:0px;
+}
+
+.selectionLabel:first-letter{
+    color: blue;
+}
+
+#additionInfoY{
+    margin:0px;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+#xButton1,#xButton2,#xButton3,#xButton4,#xButton5,#xButton6,#xButton7,#xButton8,#xButton9{
+    width: 25pt;
+    height: 25pt;
+    border-radius: 100%;
+    font-size: 15pt;
+}
+
+#chosenX1,#chosenX2{
+    position: relative;
+    left: 65%;
+    font-size: 15pt;
+    display: inline;
+    font-weight: 700;
+}
+
+#alertY,#alertX,#alertR{
+    color: red;
+    font-weight: 900;
+    font-size: 15pt;
+    display: inline;
+}
+
+#mainButton{
+    cursor: pointer;
+    font-size: 20pt;
+}
+
+#mainTable{
+    width: auto;
+    z-index: 80;
+    border: 5px groove #000000;
+    background-color: #E6E6FA;
+    position: absolute;
+    left:900px;
+    top:200px;
+    font-size: 25pt;
+    height: 310px;
+    overflow-y: scroll;
+}
+
+#finalTable{
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+    text-align: center;
+}
+
+th{
+    padding: 0px 15px;
+    border: 2px solid black;
+    border-collapse: separate;
+    height: 50px;
+}
+
+td{
+    border: 2px solid black;
+    border-collapse: separate;
+    height: 50px;
+}
+tr:hover{
+    background-color: #e8e8e8;
+}
+table{
+    border: 2px solid black;
+    border-collapse: separate;
+
+}
